@@ -2,3 +2,5 @@
 Notebooks/__pycache__/datamanipulator.cpython-38.pyc
 Notebooks/__pycache__/datagetter.cpython-38.pyc
 Notebooks/warnings.log
+Data/Day/Nasdaq1980-2020/etfs/PRN.csv
+Data/Minute/raw-NASDAQ.txt
