@@ -1,3 +1,25 @@
-https://basegroup.ru/community/bank/compare-model
-И.И. Елисеева. Эконометрика
-"Practical Time Series Analysis: Prediction with Statistics and Machine Learning" Aileen Nielsen (2019)
+ 1. https://basegroup.ru/community/bank/compare-model
+ 2. И.И. Елисеева. Эконометрика
+ 3. "Practical Time Series Analysis: Prediction with Statistics and Machine Learning" Aileen Nielsen (2019)
+ 4. https://www.sciencedirect.com/science/article/pii/S2666764922000273
+ 5. https://www.sciencedirect.com/science/article/pii/S0169207021001151
+ 6. https://www.sciencedirect.com/science/article/pii/S0169207022001029
+ 7. https://www.sciencedirect.com/science/article/pii/S0169207021000558
+ 8. https://www.sciencedirect.com/science/article/pii/S0169207020301862
+ 9. https://www.sciencedirect.com/science/article/pii/S0169207022000012
+10. https://www.sciencedirect.com/science/article/pii/S0169207022000012
+11. https://www.sciencedirect.com/science/article/pii/S0169207019301360
+12. https://www.sciencedirect.com/science/article/pii/S0378437118314985
+13. https://www.sciencedirect.com/science/article/pii/S0169207019301566
+14. https://www.sciencedirect.com/science/article/pii/S0169207020300996
+15. https://www.sciencedirect.com/science/article/pii/S092523122101866X
+16. https://www.sciencedirect.com/science/article/pii/S0925231222000571 интересно
+17. https://www.sciencedirect.com/science/article/pii/S2667096822000027 стоит тоже пересмотреть
+18. https://www.sciencedirect.com/science/article/pii/S009830042200084X интересно
+19. Machine Learning Strategies for Time Series Forecasting Gianluca Bontempi, Souhaib Ben Taieb & Yann-Aël Le Borgne, European Big Data Management and Analytics Summer School, eBISS 2012: Business Intelligence pp 62–77
+20. "Forecasting with exponential smoothing: The state space approach" by Rob Hyndman, Anne B. Koehler, J. Keith Ord, and Ralph D. Snyder (2008)
+21. https://arxiv.org/pdf/2004.10240.pdf
+22. G Peter Zhang. Time series forecasting using a hybrid ARIMA and neural network model. Neurocomputing, 50:159–175, 2003.
+23. https://www.sciencedirect.com/science/article/pii/S2666764922000121
+24. https://www.researchgate.net/publication/229378180_A_comparative_study_of_artificial_neural_networks_and_support_vector_machines_for_predicting_groundwater_levels_in_a_coastal_aquifer
+25. https://arxiv.org/abs/2004.13408
