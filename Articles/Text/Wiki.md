@@ -20,6 +20,7 @@ plt.plot(rolling_mean, color = 'red', label = 'Rolling Mean')
 plt.plot(rolling_std, color = 'black', label = 'Rolling Std')
 ```
 Если скользящее среднее и стандартное отклонение со временем возрастает, то ряд является нестационарным.
+
 2. Провести тест Дики-Фуллера
 ```python
 result = adfuller(model_data.Price)
