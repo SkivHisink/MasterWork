@@ -1,7 +1,7 @@
 import pandas
 
 class BaseModel:
-    def __init__(self, price, date):
+    def __init__(self, data):
         """Base model constructor.
 
         Args:
@@ -9,16 +9,12 @@ class BaseModel:
             date : Data object with date in date format.
         
         """
-        self._price = price
-        self._date = date
+        self._data = data
         self._result = None
         self._is_predicted = False
     
-    def get_price(self) -> pandas.DataFrame:
-        return self._price
-    
-    def get_date(self) -> pandas.DataFrame:
-        return self._date
+    def get_data(self) -> pandas.DataFrame:
+        return self._data
     
     def get_result(self):
         if(self._is_predicted):
