@@ -16,25 +16,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_9064\3138587451.
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1262563200
+  special_data.loc[0, 'new_index'] = 1262563200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_9064\3138587451.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_9064\3138587451.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_9064\3138587451.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Roaming\Python\Python38\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
   warnings.warn(
@@ -63,25 +63,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_11932\3138587451
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1262563200
+  special_data.loc[0, 'new_index'] = 1262563200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_11932\3138587451.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_11932\3138587451.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_11932\3138587451.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Roaming\Python\Python38\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
   warnings.warn(
@@ -107,25 +107,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_13684\3138587451
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1262563200
+  special_data.loc[0, 'new_index'] = 1262563200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_13684\3138587451.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_13684\3138587451.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_13684\3138587451.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Roaming\Python\Python38\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
   warnings.warn(
@@ -169,25 +169,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28572\3138587451
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1262563200
+  special_data.loc[0, 'new_index'] = 1262563200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28572\3138587451.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28572\3138587451.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28572\3138587451.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Roaming\Python\Python38\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
   warnings.warn(
@@ -267,25 +267,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_12832\3138587451
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1262563200
+  special_data.loc[0, 'new_index'] = 1262563200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_12832\3138587451.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_12832\3138587451.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_12832\3138587451.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Roaming\Python\Python38\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
   warnings.warn(
@@ -317,25 +317,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_29756\3138587451
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1262563200
+  special_data.loc[0, 'new_index'] = 1262563200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_29756\3138587451.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_29756\3138587451.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_29756\3138587451.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Roaming\Python\Python38\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
   warnings.warn(
@@ -370,25 +370,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_39572\3138587451
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1262563200
+  special_data.loc[0, 'new_index'] = 1262563200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_39572\3138587451.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_39572\3138587451.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_39572\3138587451.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Roaming\Python\Python38\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
   warnings.warn(
@@ -438,25 +438,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_39572\3138587451
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1262563200
+  special_data.loc[0, 'new_index'] = 1262563200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_39572\3138587451.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_39572\3138587451.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_39572\3138587451.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Roaming\Python\Python38\site-packages\statsmodels\tsa\statespace\sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
   warn('Non-stationary starting autoregressive parameters'
@@ -594,25 +594,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_9936\3138587451.
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1262563200
+  special_data.loc[0, 'new_index'] = 1262563200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_9936\3138587451.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_9936\3138587451.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_9936\3138587451.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Roaming\Python\Python38\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
   warnings.warn(
@@ -681,25 +681,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_9936\3138587451.
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1262563200
+  special_data.loc[0, 'new_index'] = 1262563200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_9936\3138587451.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_9936\3138587451.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_9936\3138587451.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Roaming\Python\Python38\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
   warnings.warn(
@@ -803,25 +803,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_14816\3138587451
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1262563200
+  special_data.loc[0, 'new_index'] = 1262563200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_14816\3138587451.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_14816\3138587451.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_14816\3138587451.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_14816\1142248319.py:1: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
@@ -11293,25 +11293,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28576\3138587451
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1262563200
+  special_data.loc[0, 'new_index'] = 1262563200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28576\3138587451.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28576\3138587451.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28576\3138587451.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28576\1142248319.py:1: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
@@ -11323,7 +11323,7 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28576\3234434507
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1293883200
+  special_data.loc[0, 'new_index'] = 1293883200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28576\2126971332.py:1: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame.
@@ -11343,25 +11343,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28576\3234434507
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1293883200
+  special_data.loc[0, 'new_index'] = 1293883200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28576\3234434507.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28576\3234434507.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28576\3234434507.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28576\1142248319.py:1: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
@@ -15047,25 +15047,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_11408\278632233.
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1325419200
+  special_data.loc[0, 'new_index'] = 1325419200
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_11408\278632233.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_11408\278632233.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_11408\278632233.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_11408\1142248319.py:1: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
@@ -17164,25 +17164,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28680\4065897312
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1357041600
+  special_data.loc[0, 'new_index'] = 1357041600
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28680\4065897312.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28680\4065897312.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28680\4065897312.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_28680\1142248319.py:1: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
@@ -18618,25 +18618,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_25004\2862014421
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1388577600
+  special_data.loc[0, 'new_index'] = 1388577600
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_25004\2862014421.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_25004\2862014421.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_25004\2862014421.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_25004\1142248319.py:1: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
@@ -19739,25 +19739,25 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_29852\1174500956
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[0] = 1401624000
+  special_data.loc[0, 'new_index'] = 1401624000
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_29852\1174500956.py:4: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[0] = datetime.datetime.fromtimestamp(special_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_29852\1174500956.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_index[i] = special_data.new_index[i - 1] + 86400
+  special_data.loc[i, 'new_index'] = special_data.new_index[i - 1] + 86400
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_29852\1174500956.py:8: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  special_data.new_date[i] = datetime.datetime.fromtimestamp(special_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+  special_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(special_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
 
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Local\Temp\ipykernel_29852\1142248319.py:1: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
@@ -20083,3 +20083,26 @@ WARNING:py.warnings:C:\Users\Skiv2\AppData\Roaming\Python\Python38\site-packages
 WARNING:py.warnings:C:\Users\Skiv2\AppData\Roaming\Python\Python38\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
   warn('Non-invertible starting MA parameters found.'
 
+WARNING:root:Could not evaluate the paramaters: {'order': (1, 1, 1), 'seasonal_order': (2, 1, 1, 12)}. error: No frequency information was provided with date index and no frequency could be inferred.
+WARNING:root:Could not evaluate the paramaters: {'order': (1, 1, 1), 'seasonal_order': (1, 1, 1, 12)}. error: No frequency information was provided with date index and no frequency could be inferred.
+WARNING:root:Could not evaluate the paramaters: {'order': (1, 1, 1), 'seasonal_order': (2, 1, 0, 12)}. error: No frequency information was provided with date index and no frequency could be inferred.
+WARNING:root:Could not evaluate the paramaters: {'order': (1, 1, 1), 'seasonal_order': (0, 1, 0, 12)}. error: No frequency information was provided with date index and no frequency could be inferred.
+WARNING:root:Could not evaluate the paramaters: {'order': (1, 1, 0), 'seasonal_order': (2, 1, 1, 12)}. error: No frequency information was provided with date index and no frequency could be inferred.
+WARNING:root:Could not evaluate the paramaters: {'order': (1, 1, 0), 'seasonal_order': (1, 1, 1, 12)}. error: No frequency information was provided with date index and no frequency could be inferred.
+WARNING:root:Could not evaluate the paramaters: {'order': (1, 1, 0), 'seasonal_order': (2, 1, 0, 12)}. error: No frequency information was provided with date index and no frequency could be inferred.
+WARNING:root:Could not evaluate the paramaters: {'order': (1, 1, 0), 'seasonal_order': (0, 1, 0, 12)}. error: No frequency information was provided with date index and no frequency could be inferred.
+WARNING:root:Could not evaluate the paramaters: {'order': (0, 1, 1), 'seasonal_order': (2, 1, 1, 12)}. error: No frequency information was provided with date index and no frequency could be inferred.
+WARNING:root:Could not evaluate the paramaters: {'order': (0, 1, 1), 'seasonal_order': (1, 1, 1, 12)}. error: No frequency information was provided with date index and no frequency could be inferred.
+WARNING:root:Could not evaluate the paramaters: {'order': (0, 1, 1), 'seasonal_order': (2, 1, 0, 12)}. error: No frequency information was provided with date index and no frequency could be inferred.
+WARNING:root:Could not evaluate the paramaters: {'order': (0, 1, 1), 'seasonal_order': (0, 1, 0, 12)}. error: No frequency information was provided with date index and no frequency could be inferred.
+WARNING:root:Unknown keyword arguments: dict_keys(['typ']).Passing unknown keyword arguments will raise a TypeError beginning in version 0.15.
+WARNING:root:Unknown keyword arguments: dict_keys(['typ']).Passing unknown keyword arguments will raise a TypeError beginning in version 0.15.
+WARNING:root:Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+WARNING:root:Non-invertible starting MA parameters found. Using zeros as starting parameters.
+WARNING:root:Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.
+WARNING:root:Maximum Likelihood optimization failed to converge. Check mle_retvals
+WARNING:root:Unknown keyword arguments: dict_keys(['typ']).Passing unknown keyword arguments will raise a TypeError beginning in version 0.15.
+WARNING:root:Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+WARNING:root:Non-invertible starting MA parameters found. Using zeros as starting parameters.
+WARNING:root:Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.
+WARNING:root:Unknown keyword arguments: dict_keys(['typ']).Passing unknown keyword arguments will raise a TypeError beginning in version 0.15.

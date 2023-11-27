@@ -3,3 +3,8 @@ Notebooks/__pycache__/datamanipulator.cpython-38.pyc
 Notebooks/__pycache__/datagetter.cpython-38.pyc
 Notebooks/warnings.log
 Data/Day/Nasdaq1980-2020/etfs/PRN.csv
+Notebooks/Econometric/warnings.log
+Notebooks/sand500/month/warnings.log
+Notebooks/sand500/day/warnings.log
+Notebooks/nasdaq/day/warnings.log
+*.log

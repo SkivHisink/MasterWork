@@ -126,14 +126,14 @@ class DataPreparator:
             modified_data['new_index'] = modified_data.Close
             modified_data['new_date'] = modified_data.Close
             if 'Date' in modified_data:
-                modified_data.new_index[0] = modified_data.Date[0].timestamp()
+                modified_data.loc[0, 'new_index'] = modified_data.Date[0].timestamp()
             else:
-                modified_data.new_index[0] = int(pd.to_datetime(modified_data.index[0]).timestamp())
-            modified_data.new_date[0] = datetime.datetime.fromtimestamp(modified_data.new_index[0]).strftime('%Y-%m-%d %H:%M:%S')
+                modified_data.loc[0, 'new_index'] = int(pd.to_datetime(modified_data.index[0]).timestamp())
+            modified_data.loc[0, 'new_date'] = datetime.datetime.fromtimestamp(modified_data.loc[0, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
             for i in range(len(modified_data.new_index)):
                 if i > 0:
-                    modified_data.new_index[i] = modified_data.new_index[i - 1] + ts
-                    modified_data.new_date[i] = datetime.datetime.fromtimestamp(modified_data.new_index[i]).strftime('%Y-%m-%d %H:%M:%S')
+                    modified_data.loc[i, 'new_index'] = modified_data.new_index[i - 1] + ts
+                    modified_data.loc[i, 'new_date'] = datetime.datetime.fromtimestamp(modified_data.loc[i, 'new_index']).strftime('%Y-%m-%d %H:%M:%S')
             modified_data.set_index('new_date', inplace = True)
         else:
             raise Exception("Something went wrong")
